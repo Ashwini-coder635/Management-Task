@@ -1,0 +1,60 @@
+/* Page wrapper – centers form */
+.register-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Form card */
+.register-form {
+  width: 360px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.3);
+
+  display: flex;
+  flex-direction: column; /* 🔥 FIX */
+  gap: 15px;
+}
+
+/* Title */
+.register-form h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #1f2d40;
+}
+
+/* Inputs & select */
+.register-form input,
+.register-form select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+/* Focus */
+.register-form input:focus,
+.register-form select:focus {
+  outline: none;
+  border-color: #243b55;
+  box-shadow: 0 0 6px rgba(36, 59, 85, 0.4);
+}
+
+/* Button */
+.register-form button {
+  padding: 12px;
+  background: #111;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.register-form button:hover {
+  background: #000;
+}
