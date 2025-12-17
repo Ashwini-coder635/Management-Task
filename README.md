@@ -178,20 +178,3 @@ http://localhost:5173
 * RESTful API design
 
 ---
-
-## 📸 Screenshots
-
-*(Add screenshots here if you want)*
-
----
-
-## 👨‍💻 Author
-
-**Your Name**
-GitHub: [https://github.com/yourusername](https://github.com/yourusername)
-
----
-
-## 📜 License
-
-This project is for educational purposes.
